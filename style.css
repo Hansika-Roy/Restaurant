@@ -1,0 +1,228 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family:'Mukta Vaani', sans-serif;
+}
+
+body{
+  background-image:url(/unflesh.jpeg); 
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+/* styling of nav bar starts here */
+nav{
+  display:flex;
+  justify-content: space-between;
+  min-height: 13vh;
+  background-color: transparent;
+}
+
+.left-links{
+  display:flex;
+  justify-content:space-evenly;
+  width: 20%;
+  padding-top: 50px;
+}
+
+.left-links li{
+  list-style-type:none;
+}
+
+.left-links a{
+  color: white;
+  text-decoration: none;
+  font-size: 25px;
+  letter-spacing: 2px; 
+}
+
+.footer-links{
+  display:flex;
+  justify-content:space-around;
+  width: 100%;
+  padding-top: 50px;
+}
+
+.footer-links li{
+  list-style-type:none;
+}
+
+.footer-links a{
+  color: gray;
+  text-decoration: none;
+  font-size: 25px;
+  letter-spacing: 2px; 
+}
+
+.burger{
+  display:flex;
+  padding: 50px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.burger .line{
+  height: 3px;
+  width: 30px;
+  margin:3px;
+  background-color: white;
+}
+
+.burger .line1{
+  height: 3px;
+  width: 25px;
+  margin:3px;
+  background-color: white;
+}
+
+section{
+  height:100vh;
+  width: 100%
+}
+
+.home{
+  height: 100%;
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+
+.home>img{
+  width: 30%;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 20px 10px 30px 3px rgba(0,0,0,0.71);
+}
+
+.section{
+  width: 100%;
+  height: 30vh;
+  background-color: teal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro h1{
+  font-size: 20px;
+}
+
+.intro a{
+ color: white;
+}
+
+.photos img{
+  width: 350px;
+  height: 250px;
+}
+.intro{
+  margin-right: 10px;
+}
+
+.section1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:white;
+  height: 80vh;
+  width: 100%;
+}
+
+.introduction,
+.banner{
+  width: 500px;
+  margin: 20px;
+  height: 90%;
+}
+
+.introduction h1{
+  color: coral;
+}
+ 
+.introduction p{
+  text-align: justify;
+  line-height:20px;
+  margin-bottom: 10px;
+}
+
+.banner img{
+  height: 100%;
+  width: 100%;
+}
+
+.introduction .slider{
+  width: 100%;
+}
+
+.introduction .slider img{
+  width: 100%;
+  margin-top: 30px;
+}
+/*  */
+.section2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:white;
+  height: 50vh;
+  width: 100%;
+}
+
+.introduction,
+.banner2{
+  width: 500px;
+  margin: 20px;
+  height: 90%;
+}
+
+.introduction h1{
+  color: coral;
+}
+ 
+.introduction p{
+  text-align: justify;
+  line-height:20px;
+  margin-bottom: 10px;
+}
+
+.banner2 img{
+  height: 100%;
+  width: 85%;
+}
+
+.introduction .slider{
+  width: 100%;
+}
+
+.introduction .slider img{
+  width: 100%;
+  margin-top: 30px;
+}
+/*  */
+nav2{
+  display:flex;
+  justify-content: space-between;
+  min-height: 16vh;
+  background-color: coral;
+}
+
+.icons{
+  display: flex;
+  
+}
+
+.icons .fa{
+  border-radius: 50%;
+  width: 50px;
+  align-items: center;
+  text-align: center;
+  height: 50px;
+  justify-content: center;
+  font-size: 40px;
+  margin-left: 5px;
+}
+
+
+
+
+
